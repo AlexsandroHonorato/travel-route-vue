@@ -2,11 +2,11 @@
 <div class="col-sm-12 container">
     <div id="travel-route-form">
         <div class="row g-6 align-items-center">
-            <div class="col-auto">
+            <div class="col-auto text-left">
                 <label for="lblOrigin" class="form-label">De onde você está saindo?</label>
                 <input type="text" name="origin" class="form-control" id="origin" v-model="origin" maxlength="3" placeholder="Busque por aeroporto">
             </div>
-            <div class="col-auto">
+            <div class="col-auto text-left">
                 <label for="lblDestiny" class="form-label">Para onde você vai?</label>
                 <input type="text" name="destiny" class="form-control" id="destiny" maxlength="3" v-model="destiny" placeholder="Busque por aeroporto">
             </div>
